@@ -16,6 +16,7 @@ provider "aws" {
     sns            = "http://localhost:4566"
     cloudwatch     = "http://localhost:4566"
     iam            = "http://localhost:4566"
+    sts            = "http://localhost:4566"
     secretsmanager = "http://localhost:4566"
     rds            = "http://localhost:4566"
   }
